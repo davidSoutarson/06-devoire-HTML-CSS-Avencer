@@ -1,57 +1,42 @@
 *{
   margin: 0;
-  padding: 0;
+  padding:0;
 }
 
 #wrapere{
   width: 990px;
-  height: 1500px;
+  height: 100vh;
   margin: 0 auto;
   border: 1px solid black;
-}
+  }
 
 header{
+  width: 100%;
+  height: 5%;
   background-color: pink;
 }
 
-article{
+main{
+ width: 100%;
+ height: 90%;
+}
+
+section{
+  width: 630px;
+  height: 100%;
   background-color: grey;
+  float: left;
 }
 
 aside{
+  width: 330px;
+  height: 70%;
   background-color: purple;
+  float:right ;
 }
 
-.header{
+footer{
   width: 100%;
   height: 5%;
-}
-
-.main{
-  width: 100%;
-  height: 100%;
-}
-
-
-.column-left{
- float: left;
-}
-
-.artcle-content{
-  max-width: 630px
-  height: 100%;
-}
-
-.column-right{
-  float: right;
-}
-
-.aside-content{
-  max-width: 330px;
-  height: 60%
-}
-
-.footer{
-  width: 100%;
-  height: 5%;
+  background-color: orange;
 }
