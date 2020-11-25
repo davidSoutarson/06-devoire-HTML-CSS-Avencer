@@ -2,20 +2,26 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
     <title>la fourchette</title>
   </head>
 <!--  Conseils
 – Pour l’image de fond (back-cover.jpg), ciblez la balise body et rajouter background-size : 100% ou background-size : cover afin de remplir tout l’écran.
 – Utiliser des balises structurantes dès que possible : header, footer, main, aside, article, section… -->
   <body> <!-- image de fond: img/back-cover.jpg-->
-    <img src="img/back-cover.jpg" alt="image de fond globale">
+
+  <!--  <img src="img/back-cover.jpg" alt="image de fond globale"> -->
+
+
+
     <div id="wrapere"> <!-- largeur 990 px  couleur de font: hsla(358,28%,95%,0.85) -->
       <header>
-        <div class="log"> <!-- positioner centere : margin : 20 auto ; width: 278 px; height: 96 px ; -->
+        <div class="logo"> <!-- positioner centere : margin : 20 auto ; width: 278 px; height: 96 px ; -->
               <a href="index.html">
               <img src="img/logo-fourchette-2.png" alt="log la fourchette" width="278" height="96" >
               </a>
         </div>
+
         <nav>
           <!-- pas de couleur de fond text couleur : noir  avec un roll over sur a de couleur "orange" #d86c0c
           - suprestion des sytle sur les liste et les lien:
@@ -25,14 +31,22 @@
             <li><a href="#">Menu</a></li>
             <li><a href="#">Information pratiques</a></li>
             <li><a href="#">Contacts</a></li>
+            <div class="clear">
+            </div>
           </ul>
+
         </nav>
+        <div class="clear">
+        </div>
       </header>
 
+      <h1 class="gris-droite"> la fourchette: toujour plus cut,toujours plus bon</h1>
+      <div class="clear">
+        </div>
       <main>
-        <h1> la fourchette: toujour plus cut,toujours plus bon</h1>
-        <section>
-          <h2>Le totaloriom du totalier plié</h2>
+
+        <section class="float">
+          <h2>Le totalorium du totalier plié</h2>
           <p>le 21 novembre 2018 par Etienne chapoau</p>
 
             <article class="haut droite">
@@ -48,27 +62,29 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut felis et libero gravida cursus. Nullam ultricies, diam non commodo lobortis, lorem purus hendrerit felis, eget varius arcu felis et lectus. Curabitur commodo, sem id sollicitudin fringilla, ex nunc iaculis purus, at scelerisque ipsum orci fermentum tortor. Phasellus fermentum nibh quis neque sodales elementum. Nam placerat metus arcu, nec lacinia justo sodales ac. Integer odio magna, efficitur eu dapibus eu, laoreet vitae odio. In ipsum ligula, dictum non congue nec, lacinia ut lorem. Donec efficitur risus sapien, laoreet euismod lacus viverra sit amet. Phasellus ultrices nibh nunc, cursus scelerisque lorem interdum et. Fusce mi est, rhoncus eu tincidunt placerat, finibus vel mauris. Nunc euismod est a enim feugiat vulputate. Etiam pulvinar mollis nisl, quis tincidunt libero sodales eget. Vestibulum elementum quis urna at lobortis. Suspendisse hendrerit varius eros, a hendrerit risus elementum eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin quis ipsum in orci laoreet bibendum
               </p>
             </article>
-
-            <nav>
+            <article class="viniette">
               <h2>Sur le même sujet</h2>
-              <div class="left">
-                <img src="img/gougeres.jpg" alt="">
-                <a href="#">Gougers joyeuses</a>
-              </div>
-              <div class="centere">
-                <img src="img/table.jpg" alt="">
-                <a href="#">Table anonime</a>
-              </div>
-              <div class="ri">
-                <img src="img/biscuit.jpg" alt="">
-                <a href="#">biscuit malin</a>
-              </div>
+              <nav >
 
-            </nav>
+                <div class="image ">
+                  <a href="#"><img src="img/gougeres.jpg" width="200px" alt="">Gougers joyeuses</a>
+                </div>
+                <div class="image">
+                  <a href="#"><img src="img/table.jpg" alt="">Table anonime</a>
+                </div>
+                <div class="image">
+                  <a href="#"><img src="img/biscuit.jpg" alt="">biscuit malin</a>
+                </div>
+              </nav>
+
+            </article>
+
 
         </section>
+        <div class="clear">
+        </div>
 
-        <aside class="restorant left">
+        <aside class="float">
           <h2>Restorant</h2>
           <div class="gastronmie">
             <h3>Gastronomie</h3>
@@ -85,12 +101,18 @@
             </p>
           </div>
 
-        </aside>
+        </aside >
+        <div class="clear">
+        </div>
 
       </main>
-      <footer>
-        <p> &copy 2017 tous droite de redation reserver </p>
-      </footer>
+
+
+        <footer>
+          <p> &copy 2017 tous droite de redation reserver </p>
+        </footer>
+
+
 
     </div><!-- fin wrapere contenaire div prinsipale ne rien taper desous -->
 

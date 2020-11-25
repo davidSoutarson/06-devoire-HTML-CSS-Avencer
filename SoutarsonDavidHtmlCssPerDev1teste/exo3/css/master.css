@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.clear{
+  clear: both;
+}
+
+h1,h3 {
+  padding: 15px 0px;
+}
+
+body{
+  background-color:white;
+  background-image: url("../img/back-cover.jpg");
+  background-repeat: no-repeat;
+  background-size : cover;
+}
+
+#wrapere{
+  margin: 0 auto;
+  width: 990px;
+  background-color:hsla(358,28%,95%,0.85);
+}
+
+header main footer{
+  width: 100%;
+}
+
+.logo{
+   width: 278px;
+   height: 96px;
+   margin: 0 auto;
+}
+
+header nav {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+
+}
+
+header nav ul{
+  list-style: none;
+  margin: 5px 0px;
+}
+
+header nav li{
+ float: left;
+ width: auto;
+ padding: 0px 5px;
+ border-right: 1px solid black;
+}
+
+header nav li a{
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0px 5px;
+  text-align: center;
+  color: black;
+}
+
+header nav li a:hover{
+  color: #d86c0c;
+}
+
+h1.gris-droite{
+  font-style: italic;
+  color: gray;
+  float: right;
+  font-size:  20px;
+}
+main{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+section{
+  width:640px;
+  padding: 0px 15px;
+}
+
+.viniette{
+    border-top: 2px solid black;
+}
+
+section .viniette nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+.image a{
+  display:block;
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  align-items: baseline;
+}
+
+a{
+  text-decoration: none;
+  color:#b32;
+}
+
+a:hover{
+  color: gray;
+}
+
+
+
+aside{
+  width: 280px;
+  padding: 0px 15px;
+}
+
+footer{
+  border-top: 2px solid black;
+  height: 40px;
+  padding: 15px ;
+  margin: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
