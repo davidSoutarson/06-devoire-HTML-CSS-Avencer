@@ -7,8 +7,12 @@
   clear: both;
 }
 
-h1,h3 {
+h1,h3{
   padding: 15px 0px;
+}
+
+p{
+  line-height: 30px;
 }
 
 body{
@@ -37,7 +41,6 @@ header main footer{
 header nav {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-
 }
 
 header nav ul{
@@ -70,6 +73,7 @@ h1.gris-droite{
   color: gray;
   float: right;
   font-size:  20px;
+  padding: 15px 15px;
 }
 main{
   display: flex;
@@ -79,28 +83,45 @@ main{
 section{
   width:640px;
   padding: 0px 15px;
+  display: block;
+}
+
+.bas-droite{
+  margin-bottom: 33px;
+}
+
+aside{
+  width: 280px;
+  padding: 0px 15px;
+  display: block;
 }
 
 .viniette{
     border-top: 2px solid black;
 }
 
-section .viniette nav{
+ .contenaire{
   display: flex;
   justify-content: space-around;
+  width: 640px;
+  height: 150px;
+ align-content: flex-start;
 }
 
-.image a{
-  display:block;
-  text-align: center;
+.image {
   width: 200px;
   height: 150px;
-  align-items: baseline;
+  text-align: center;
+  display: block;
+  align-content: flex-start;
 }
 
 a{
+  margin: 0 auto;
+  display: block;
   text-decoration: none;
   color:#b32;
+  font-size: 22px;
 }
 
 a:hover{
@@ -108,18 +129,10 @@ a:hover{
 }
 
 
-
-aside{
-  width: 280px;
-  padding: 0px 15px;
-}
-
 footer{
   border-top: 2px solid black;
-  height: 40px;
-  padding: 15px ;
-  margin: 5px;
+  padding: 15px;
   display: flex;
   flex-direction: row-reverse;
-  align-items: center;
+  margin-top: 35px;
 }
