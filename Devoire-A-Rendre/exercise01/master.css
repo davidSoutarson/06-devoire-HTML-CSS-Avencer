@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clear{
+  clear: both;
+}
+
+header p {
+  font-size: 1.5em;
+  text-decoration:underline;
+}
+
+h1, h2, p{
+  padding: 15px;
+}
+
+header{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#wrapper{
+  margin: 0 auto;
+  width: 950px;
+  height: 100%;
+  border-left:1px solid black;
+  border-right:1px solid black;
+}
+
+#éléve-presentation{
+  width: 80%;
+  border-bottom: 2px solid black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nom-prenon{
+  margin: 15px;
+}
+#devoir-numero{
+  margin: 15px;
+}
+
+.bloc1, .bloc2{
+  width: 250px;
+  min-height: 250px;
+  border: 5px solid black;
+  background-color: rgb(185, 188, 160);
+  float: left;
+  margin: 10px 5px 10px 10px;
+  text-align: center;
+}
