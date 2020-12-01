@@ -1,0 +1,39 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: url("../image/back-cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#wrapper{
+  width: 990px;
+  margin: 0px auto;
+  background-color: hsla(358,28%,95%,0.85);
+}
+
+
+.logo{
+  margin: 0 auto ;
+  width: 278px ;
+  height: 96px ;
+}
+
+.menu {
+  width: 990px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  border:
+}
